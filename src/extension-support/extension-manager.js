@@ -7,10 +7,12 @@ const BlockType = require('./block-type');
 // TODO: move these out into a separate repository?
 // TODO: change extension spec so that library info, including extension ID, can be collected through static methods
 const Scratch3PenBlocks = require('../blocks/scratch3_pen');
+const Scratch3DroneBlocks = require('../blocks/scratch3_drone');
 const Scratch3WeDo2Blocks = require('../blocks/scratch3_wedo2');
 const builtinExtensions = {
     pen: Scratch3PenBlocks,
-    wedo2: Scratch3WeDo2Blocks
+    drone: Scratch3DroneBlocks,
+    wedo2: Scratch3WeDo2Blocks,
 };
 
 /**
